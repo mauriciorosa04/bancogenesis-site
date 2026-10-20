@@ -63,7 +63,7 @@ ul { padding: 0; list-style: none; }
 .marca { display: inline-flex; align-items: center; flex-shrink: 0; }
 .marca { text-decoration: none; display: inline-flex; align-items: center; }
 .marca img { height: 50px; width: auto; display: block; }
-.rodape-marca img { height: 46px; width: auto; display: block; }
+.rodape-marca img { width: 100%; max-width: 300px; height: auto; display: block; }
 .marca-nome { display: inline-flex; align-items: baseline; gap: 0.28em; font-family: var(--fonte-titulo); font-size: 27px; letter-spacing: -0.02em; line-height: 1; color: var(--branco); white-space: nowrap; }
 .marca-nome > span { font-weight: 500; }
 .marca-nome b { font-weight: 700; }
@@ -237,7 +237,7 @@ ul { padding: 0; list-style: none; }
   .container { padding: 0 16px; }
   .topo .container { height: 68px; padding: 0 16px; }
   .marca img { height: 36px; }
-  .rodape-marca img { height: 40px; }
+  .rodape-marca img { max-width: 240px; }
   .menu { display: none; position: absolute; left: 0; right: 0; top: 68px; flex-direction: column; align-items: stretch; gap: 0; background: var(--preto); border-bottom: 1px solid var(--borda-escura); padding: 8px 16px 16px; }
   .menu.aberto { display: flex; }
   .menu a { padding: 14px 4px; border-bottom: 1px solid var(--borda-escura); font-size: 16px; }
