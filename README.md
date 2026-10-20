@@ -22,17 +22,17 @@ e fica nítido em qualquer tela, porque tudo que não é foto é vetor ou fonte.
 
 ## Identidade
 
-A marca é tipográfica: o nome em Sora, e o acento do ê é um arco laranja, um
-pedaço do anel do símbolo do Grupo Gênesis Brasil. Ela é texto e SVG inline,
-então muda de tamanho e cor com a página. Três variáveis no topo da folha de
-estilo controlam o arco (largura, altura e distância do e).
+A marca é o monograma BG (o B atrás, o G do Grupo Gênesis Brasil na frente)
+com o nome em Sora. Os arquivos em vetor, com o texto convertido em curvas,
+estão em `marca/final/`; o site usa `assets/img/marca-horizontal.svg` no topo
+e no rodapé e o símbolo sozinho no favicon.
 
 | Papel | Cor |
 | --- | --- |
-| Fundo escuro e texto no claro | `#0b0b0c` |
-| Cartões sobre o escuro | `#141416` |
-| Destaque (arco da marca, botão principal, ícones) | `#F57129`, `#ff8c4a` sobre o escuro |
-| Fundo claro | `#f4f2ef` |
+| Marinho, fundo escuro e texto no claro | `#0f1f3d` |
+| Cartões sobre o marinho | `#1a2d52` |
+| Dourado (G da marca, botão principal, ícones) | `#c9a24a`, `#e0bf6a` sobre o escuro, `#8a6a1e` sobre o claro |
+| Areia, fundo claro | `#f4f2ef` |
 
 Tipografia: Sora nos títulos e Source Sans 3 no texto, via Google Fonts.
 Ícones em SVG inline, no traço do Lucide.
