@@ -23,9 +23,9 @@
   --raio-foto: 24px;
   --transicao: 200ms ease;
   /* Arco da marca: largura, altura e distância do e. Trocar aqui muda a logo no site inteiro. */
-  --arco-largura: 0.42em;
-  --arco-altura: 0.42em;
-  --arco-topo: -0.34em;
+  --arco-largura: 1.5em;
+  --arco-altura: 0.75em;
+  --arco-topo: -0.62em;
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
