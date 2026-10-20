@@ -192,7 +192,7 @@ ul { padding: 0; list-style: none; }
 .rodape-grade { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; }
 .rodape-marca { display: flex; flex-direction: column; gap: 14px; }
 .rodape-marca .marca-nome { font-size: 30px; }
-.rodape-marca span { font-size: 14px; line-height: 1.5; color: var(--cinza-claro); max-width: 360px; }
+.rodape-marca > span { font-size: 14px; line-height: 1.5; color: var(--cinza-claro); max-width: 360px; }
 .rodape-marca small { font-size: 13px; color: var(--cinza-medio); }
 .rodape-coluna { display: flex; flex-direction: column; gap: 10px; font-size: 15px; }
 .rodape-coluna strong { font-family: var(--fonte-titulo); font-weight: 600; color: var(--branco); margin-bottom: 4px; }

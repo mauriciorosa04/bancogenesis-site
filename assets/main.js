@@ -22,7 +22,7 @@
     }, { rootMargin: '0px 0px -10% 0px' });
     blocos.forEach(function (b) { obs.observe(b); });
     // Garantia: nada fica escondido se o observador não disparar.
-    setTimeout(function () { blocos.forEach(function (b) { b.classList.remove('aguardando'); }); }, 1500);
+    setTimeout(function () { blocos.forEach(function (b) { b.classList.remove('aguardando'); }); }, 700);
   }
 
   // Formulário: monta a mensagem e abre o programa de e-mail (o site é estático, sem servidor).
