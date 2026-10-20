@@ -19,6 +19,8 @@ e fica nítido em qualquer tela, porque tudo que não é foto é vetor ou fonte.
 - **Para quem**: os oito perfis atendidos, da pessoa física ao poder público.
 - **Diferenciais**, **Investimento e parceria** e **Contato**, com formulário
   que monta a mensagem e abre o programa de e-mail do visitante.
+- Páginas de Termos de Uso e Política de Privacidade, escritas para o que o
+  site faz de verdade: não grava cookies nem dados, e o contato vai por e-mail.
 
 ## Identidade
 
@@ -41,10 +43,15 @@ Tipografia: Sora nos títulos e Source Sans 3 no texto, via Google Fonts.
 
 ```
 index.html
+termos-de-uso.html
+politica-de-privacidade.html
 assets/
   styles.css      tokens, componentes e três pontos de quebra (1100, 980, 720)
   main.js         menu do celular, entrada suave das seções, formulário por e-mail
-  img/            favicon (SVG e PNG) e fotos
+  img/            marca em SVG, favicon (SVG e PNG) e fotos
+marca/
+  final/          a marca em vetor: horizontal, empilhada e símbolo, nas duas paletas
+  *.svg, png/     o estudo que levou à marca (caminhos descartados incluídos)
 ```
 
 ## Rodar localmente
@@ -61,9 +68,15 @@ O site é servido por um bucket S3 privado atrás de uma distribuição CloudFro
 Qualquer hospedagem de arquivos estáticos serve igual: é só copiar os arquivos.
 
 ```bash
-aws s3 sync . s3://<bucket>/ --delete --exclude ".git/*" --exclude ".gitignore" --exclude "README.md" --exclude "LICENSE"
+aws s3 sync . s3://<bucket>/ --delete --exclude ".git/*" --exclude ".gitignore" --exclude "README.md" --exclude "LICENSE" --exclude "marca/*"
+aws s3 cp politica-de-privacidade.html s3://<bucket>/politica-de-privacidade --content-type "text/html; charset=utf-8"
+aws s3 cp termos-de-uso.html s3://<bucket>/termos-de-uso --content-type "text/html; charset=utf-8"
 aws cloudfront create-invalidation --distribution-id <id> --paths "/*"
 ```
+
+As duas cópias sem extensão existem porque os links do site são
+`/termos-de-uso` e `/politica-de-privacidade`. A pasta `marca/` fica fora da
+hospedagem: é material de identidade, não página.
 
 ## Licença
 
