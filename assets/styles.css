@@ -263,6 +263,9 @@ ul { padding: 0; list-style: none; }
   .chamada span { font-size: 18px; }
   .chamada .botao { width: 100%; }
   .formulario { padding: 20px; }
+  .coluna-texto, .formulario, .contatos li, .contatos a, .contatos span { min-width: 0; }
+  .contatos a, .contatos span { overflow-wrap: anywhere; }
+  .contatos a { font-size: 16px; }
   .formulario .duas { grid-template-columns: 1fr; }
   .rodape-grade { grid-template-columns: 1fr; gap: 24px; }
 }
