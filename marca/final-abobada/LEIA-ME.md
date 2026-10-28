@@ -21,3 +21,7 @@ Pasta `favicon/`: BGB com o arco em três cores sem fundo (`bgb-dourado|branco|v
 `favicon-sem-fundo.svg`: o favicon do site, sem fundo, sempre dourado: #c9a24a em aba escura e um dourado mais fechado (#a27c24) em aba clara, para não sumir no branco. `favicon.ico` e `favicon-32.png` no dourado fechado, para Safari.
 
 Pasta `favicon/tamanhos/`: cada versão (verde, dourado e branco sem fundo; dourado sobre verde com cantos e quadrado) em 16, 32, 48, 64, 96, 128, 180, 192, 256, 512 e 1024 px, mais `favicon-verde-sem-fundo.ico` e `favicon-dourado-fundo-verde.ico` (16 a 64 px num arquivo só). O site usa `favicon.ico` = verde sem fundo.
+
+## Favicon definitivo (28/10, noite): G forte
+
+O BGB com o arco não se lê em 16 px. O favicon do site passou a ser um G redesenhado em traço forte, verde sobre quadrado dourado (`favicon/favicon-G/favcand-1-ouro-G-verde.svg`, `favicon.ico`, PNG 16 a 512). As outras quatro variações (com arco interno, verde com G dourado, sem fundo) ficam na mesma pasta. Ícone de app (180/192) continua o BGB dourado sobre verde, que em tamanho grande se lê bem.
