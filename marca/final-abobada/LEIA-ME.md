@@ -17,3 +17,5 @@ Versões `*-fundo-*.svg` já vêm com o fundo, para enviar e apresentar.
 ## Favicon e ícone (28/10, noite)
 
 Pasta `favicon/`: BGB com o arco em três cores sem fundo (`bgb-dourado|branco|verde-sem-fundo.svg` e `.png` 1024), e com fundo: `favicon-dourado-fundo-verde.svg` (o do site, cantos redondos), `favicon-branco-fundo-verde.svg`, `favicon-verde-fundo-dourado.svg`, `icone-dourado-fundo-verde-quadrado.svg` e `icone-1024-dourado-fundo-verde.png` (loja de app).
+
+`favicon-sem-fundo.svg`: o favicon do site, sem fundo; verde em aba clara e dourado em aba escura (o SVG troca sozinho pelo tema do navegador). `favicon-32.png` verde sem fundo para Safari.
