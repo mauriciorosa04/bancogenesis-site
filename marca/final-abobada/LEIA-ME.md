@@ -25,3 +25,5 @@ Pasta `favicon/tamanhos/`: cada versão (verde, dourado e branco sem fundo; dour
 ## Favicon definitivo (28/10, noite): G forte
 
 O BGB com o arco não se lê em 16 px. O favicon do site passou a ser um G redesenhado em traço forte, verde sobre quadrado dourado (`favicon/favicon-G/favcand-1-ouro-G-verde.svg`, `favicon.ico`, PNG 16 a 512). As outras quatro variações (com arco interno, verde com G dourado, sem fundo) ficam na mesma pasta. Ícone de app (180/192) continua o BGB dourado sobre verde, que em tamanho grande se lê bem.
+
+## 29/10: favicon definitivo = BGB dourado sobre verde (`favicon/favicon-dourado-fundo-verde.svg`), decisão do Mauricio. Topo do site com a marca em 46 px (36 no celular), tamanho de banco.
